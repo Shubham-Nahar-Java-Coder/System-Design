@@ -9,7 +9,7 @@ The Strategy Pattern is a way to define a family of algorithms, encapsulate each
 
 **Context:** A class that uses a Strategy object to perform the task. The Context class is not responsible for selecting the algorithm; it simply delegates the task to the Strategy object.
 
-#Scenarios Used In:
+# Scenarios Used In:
 
 1. Multiple Algorithms for a Task:
     - When you have multiple ways of performing a specific task and need to switch between these methods dynamically at runtime.
