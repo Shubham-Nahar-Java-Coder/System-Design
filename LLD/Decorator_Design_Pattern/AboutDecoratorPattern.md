@@ -13,23 +13,23 @@ The Decorator Pattern is a design pattern that lets you add new behaviors to obj
 
 # Scenarios Used In:
 
-1. Extending Functionality at Runtime:
+### 1. Extending Functionality at Runtime:
     - When you need to add responsibilities to objects dynamically and transparently.
     - Example: Adding scrollbars to a window dynamically in a graphical user interface.
 
-2. Combining Behaviors:
+### 2. Combining Behaviors:
     - When you need to combine multiple behaviors in a flexible and reusable way.
     - Example: Adding borders, shadows, and scrolling functionality to UI components independently.
 
-3. Alternative to Subclassing:
+### 3. Alternative to Subclassing:
     - When subclassing for every possible combination of behaviors is impractical.
     - Example: Instead of creating separate subclasses for different types of beverages (e.g., Mocha, Latte) with various toppings, decorators can be used to add toppings dynamically.
 
-4. Single Responsibility Principle:
+### 4. Single Responsibility Principle:
     - When you want to adhere to the Single Responsibility Principle by allowing classes to focus on their primary functionality.
     - Example: A text editor where core text editing is separated from additional features like spell checking and auto-completion.
 
-5. Enhancing Immutable Objects:
+### 5. Enhancing Immutable Objects:
     - When working with immutable objects, and you need to create new objects with enhanced behavior without modifying the original object.
     - Example: Enhancing the behavior of a basic logger with additional features like logging to a file, formatting, and filtering.
 
